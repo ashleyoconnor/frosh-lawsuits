@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.col .align-self-start {
+	display:flex;
+}
+
+.col .align-self-center {
+	display:flex;
+}
+
+.col .align-self-end {
+	display:flex; 
+}
