@@ -75,6 +75,9 @@ body {
 	width:45px;
 }
 
+.boxwrap {
+	padding-bottom: 25px; 
+}
 .box {
 	background-color: #DAE4E8;
 	width:350px;
@@ -122,5 +125,15 @@ img {
 }
 .border-bottom {
 	color: black;
+}
+
+.up-down {
+	text-align:center;
+	cursor:pointer;
+  color:#fff;
+}
+
+.show-hide {
+  display:none;
 }
 	
