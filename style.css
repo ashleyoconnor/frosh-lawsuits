@@ -99,7 +99,8 @@ img {
 
 .topic {
 	font-family: Perpetua Titling MT; 
-	font-size:36pt;
+	font-weight:500;
+	font-size:35pt;
 	text-align:center;
 	padding-top:10px;
 	padding-left:5px;
@@ -108,10 +109,11 @@ img {
 }
 
 .date {
-	font-family: Myriad Pro;
-	font-size: 20pt;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18pt;
 	text-align:center;
 	padding-bottom:15px;
+	font-weight:light 300;
 }
 
 .plaintiff {
@@ -147,5 +149,34 @@ img {
 
 #contraception {
 	font-size:28pt;
+}
+
+
+
+/*MEDIA Q'S HERE*/
+@media (max-width: 576px) {
+	.box {
+		width:300px;
+	}
+	
+	.topic {
+		font-size:28pt;
+	}
+	
+	.date {
+		font-size:15pt;
+	}
+	
+	.description {
+		font-size: 12pt;
+	}
+	.plaintiff {
+		font-size: 15pt;
+	}
+	
+	img {
+		width:50px;
+	}
+	
 }
 
