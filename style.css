@@ -100,7 +100,7 @@ img {
 .topic {
 	font-family: Perpetua Titling MT; 
 	font-weight:500;
-	font-size:35pt;
+	font-size:24pt;
 	text-align:center;
 	padding-top:10px;
 	padding-left:5px;
@@ -110,7 +110,7 @@ img {
 
 .date {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 18pt;
+	font-size: 15pt;
 	text-align:center;
 	padding-bottom:15px;
 	font-weight:light 300;
@@ -120,6 +120,7 @@ img {
 	text-align:center;
 	font-family:Myriad Pro;
 	font-size:18pt;
+	padding-top:5px;
 }
 
 .description {
@@ -176,6 +177,10 @@ img {
 	
 	img {
 		width:50px;
+	}
+	
+	#contraception {
+		font-size:24pt;
 	}
 	
 }
